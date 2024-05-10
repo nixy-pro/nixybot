@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const moment = require('moment-timezone');
 
 const config = {
-    botDestination  : 'group', // group |  private | both
+    botDestination  : 'both', // group |  private | both
     region       	: 'indonesia',
     resbot_version  : 'NIXY Robot 🤖',
     apikey_resbot   : '436e4d5c97f24feaca635fcd1eca36e3', // apikey beli di autoresbot.com
@@ -25,11 +25,11 @@ const config = {
     sleep_game      : 60000, // waktu main tebak (1000 = 1 detik)
     limit_tunggu 	: 10, // ini menit = 10 menit
     MoneyMenangGame : 20,
-    anticall        : false, // true = aktif || false = tidak aktif
+    anticall        : true, // true = aktif || false = tidak aktif
     antispam_filter : false,
     publik 			: true,
     audio_menu      : true,
-    autoread 		: false,
+    autoread 		: true,
     antitoxic 		: true,
     savekontak		: {
        format   	: 'Buyer @urutan - @tanggal @bulan @tahun',
