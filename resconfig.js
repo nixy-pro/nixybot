@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const moment = require('moment-timezone');
 
 const config = {
-    botDestination  : 'both', // group |  private | both
+    botDestination  : 'group', // group |  private | both
     region       	: 'indonesia',
     resbot_version  : 'NIXY Robot 🤖',
     apikey_resbot   : '436e4d5c97f24feaca635fcd1eca36e3', // apikey beli di autoresbot.com
